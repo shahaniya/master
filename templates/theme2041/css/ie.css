@@ -1,0 +1,90 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-width: 980px;
+}
+#section-kmt .kmt-form-content .kmt-form-addon > div .input.kmt-location {
+  max-width: 1000px !important;
+}
+.gallery-item.gallery-grid .view .mask,
+.gallery-item.gallery-grid .view .content {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader() !important;
+}
+.gallery-item.gallery-grid .view:hover .mask,
+.gallery-item.gallery-grid .view:hover .content {
+  display: block;
+}
+*[data-stellar-background-ratio] {
+  background-position-x: 50% !important;
+}
+ul#grid-list {
+  white-space: nowrap;
+}
+.camera_prev span,
+.camera_next span,
+.camera_commands span {
+  display: none;
+}
+.camera_prev:hover span,
+.camera_next:hover span,
+.camera_commands:hover span {
+  display: block;
+}
+.testimon .item_img {
+  width: 142px;
+  height: 171px;
+}
+.about_us .item_img {
+  width: 130px;
+  height: 159px;
+}
+.who_we_are .item_img {
+  width: 460px;
+  height: 324px;
+}
+.team .item_img {
+  width: 220px;
+  height: 269px;
+}
+.mod_tm_ajax_contact_form .control-group {
+  background: none !important;
+  text-align: left !important;
+}
+.mod_tm_ajax_contact_form .control-group .controls {
+  background: none !important;
+}
+.contact_form .mod_tm_ajax_contact_form .controls input,
+.contact_form .mod_tm_ajax_contact_form .controls select,
+.contact_form .mod_tm_ajax_contact_form textarea {
+  text-align: left !important;
+}
+.mod_tm_ajax_contact_form .control-group-button {
+  text-align: center !important;
+}
