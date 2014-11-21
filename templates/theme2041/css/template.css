@@ -2218,7 +2218,7 @@ button.close {
   cursor: pointer;
   color: #333333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #ed9c92;
+  background-color: #e02826;
   background-image: -moz-linear-gradient(top, #f26b5a, #e6e6e6);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f26b5a), to(#e6e6e6));
   background-image: -webkit-linear-gradient(top, #f26b5a, #e6e6e6);
@@ -2227,7 +2227,7 @@ button.close {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff26b5a', endColorstr='#ffe6e6e6', GradientType=0);
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  *background-color: #e6e6e6;
+  *background-color: #e02826;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border: 1px solid #e6e6e6;
@@ -6276,6 +6276,7 @@ body {
 }
 #push,
 #footer-wrapper {
+  background: #e02826;
   position: relative;
 }
 .offline_container {
@@ -7134,7 +7135,7 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 20px;
   text-transform: uppercase;
-  background: #f26b5a;
+  background: #e02826;
   color: #ffffff;
   text-shadow: none;
   border: none;
@@ -7418,7 +7419,7 @@ input[type='checkbox'] {
 /*======================= NAVIGATION =======================*/
 #navigation-row {
   width: 100%;
-  background: #434343;
+  background: #2c3492;
 }
 .navigation {
   text-align: center;
@@ -7443,7 +7444,7 @@ input[type='checkbox'] {
 .navigation ul.sf-menu > li.active > span,
 .navigation ul.sf-menu > li.sfHover > span,
 .navigation ul.sf-menu > li.current > span {
-  background: #f26b5a;
+  background: #e02826;
   color: #ffffff;
 }
 .navigation ul.sf-menu > li.firstItem:before {
@@ -7503,7 +7504,7 @@ input[type='checkbox'] {
   left: 163px;
 }
 .navigation ul.sf-menu ul {
-  background: #434343;
+  background: #2c3492;
   padding: 15px 0;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -7530,7 +7531,7 @@ input[type='checkbox'] {
 }
 .navigation ul.sf-menu ul li a:hover,
 .navigation ul.sf-menu ul li span:hover {
-  background: #f26b5a;
+  background: #e02826;
   color: #ffffff;
 }
 .navigation ul.sf-menu ul li.active > a,
@@ -7835,7 +7836,7 @@ input[type='checkbox'] {
 .contacts .mod-custom {
   position: relative;
   padding: 71px 50px 0;
-  background: #434343;
+  background: #2c3492;
   min-height: 370px;
   text-align: center;
 }
@@ -7931,7 +7932,7 @@ input[type='checkbox'] {
 .contact_form #contact {
   position: relative;
   padding: 126px 20px 0;
-  background: #f26b5a;
+  background: #e02826;
   min-height: 315px;
   text-align: center;
 }
@@ -8007,7 +8008,7 @@ input[type='checkbox'] {
 .contact_form .mod_tm_ajax_contact_form .controls select,
 .contact_form .mod_tm_ajax_contact_form textarea {
   width: 100%;
-  background: #f26b5a;
+  background: #e02826;
   border: none;
   border-bottom: 2px solid #fff;
   color: #fff;
@@ -8486,7 +8487,7 @@ blockquote small {
 /*======================= BOTTOM =======================*/
 /*======================= FOOTER =======================*/
 #footer-row {
-  background: #373737;
+  background: #2c3492;
 }
 .footer-logo {
   display: block;
@@ -8530,7 +8531,7 @@ blockquote small {
   font-size: 0px;
   line-height: 0px;
   overflow: hidden;
-  background: #f26b5a;
+  background: #e02826;
 }
 .social li a:before {
   content: "";
@@ -8577,7 +8578,7 @@ blockquote small {
   background: url(../images/angle_bottom_right.png) 0 0 no-repeat;
 }
 .social li a:hover {
-  background: #434343;
+  background: #2c3492;
 }
 .facebook span {
   background: url(../images/facebook.png) center center no-repeat;
