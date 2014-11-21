@@ -79,12 +79,12 @@ JHtml::_('bootstrap.framework');
             <header>
               <div class="<?php echo $rowClass; ?>">
                   <!-- Logo -->
-                  <div id="logo" class="span<?php echo $this->params->get('logoBlockWidth'); ?>">
+                  <!-- <div id="logo" class="span<?php echo $this->params->get('logoBlockWidth'); ?>">
                     <a href="<?php echo $this->baseurl; ?>">
                       <img src="<?php echo $logo;?>" alt="<?php echo $sitename; ?>">
                       <h1><?php echo $sitename; ?></h1>
                     </a>
-                  </div>
+                  </div> -->
                   <jdoc:include type="modules" name="header" style="themeHtml5" />
               </div>
             </header>
@@ -245,12 +245,13 @@ JHtml::_('bootstrap.framework');
                 <?php if($this->params->get('footerLogo') == 1) : ?>
                 <!-- Footer Logo -->
                 <div class="footer-logo">
-                	<a class="footer_logo" href="<?php echo $this->baseurl; ?>"><img src="<?php echo $footerLogo;?>" alt="<?php echo $sitename; ?>" /></a>
+<p class="foot-power" style="padding:0"><?php echo JText::_('TPL_POWRED') ?></p>                	
+<a class="footer_logo" href="http://twistlab.com/"><img width="120" src="<?php echo $footerLogo;?>" alt="<?php echo $sitename; ?>" /></a>
                 </div>
   					    <?php else: ?>
                 <span class="siteName"><?php echo $sitename; ?></span>
   					    <?php endif; ?>
-                          <?php echo JText::_('TPL_COPYRIGHT'); ?>
+                          <?php //echo JText::_('TPL_COPYRIGHT'); ?>
 					      <?php if($this->params->get('footerCopy') == 1) echo '<span class="copy">&copy;</span>'; ?>
 					      <?php if($this->params->get('footerYear') == 1) echo '<span class="year">'.date('Y').'</span>'; ?>
                 <?php if($this->params->get('privacyLink') == 1) :?>
@@ -269,7 +270,6 @@ JHtml::_('bootstrap.framework');
                 </a>
               </div>
               <?php endif; ?>
-              More <a  rel='nofollow' href='http://www.templatemonster.com/category/basketball-joomla-templates/' target='_blank'>Basketball Joomla Templates at TemplateMonster.com</a>
             </div>
           </div>
         </div>
